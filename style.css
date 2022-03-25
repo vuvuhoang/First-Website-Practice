@@ -67,7 +67,7 @@ button{
 }
 
 /* About and Discord */
-#about, #discord{
+#about, #discord, #contact, footer{
     padding: 48px 0;
 }
 #about{
@@ -102,4 +102,40 @@ h2{
 }  
 img{
     width: 100%;
+}
+
+/* Contact */
+
+#contact{
+    background-color: #dce9ff;
+}
+form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+input, textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/* Footer */
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo{
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.link-wrapper{
+    margin-bottom: 32px;
+}
+.footer-link{
+    padding: 0 16px;
 }
